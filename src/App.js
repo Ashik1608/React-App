@@ -4,28 +4,18 @@ import './App.css';
 import VideoPlayer from './VideoPlayer';
 
 function App() {
-  const youtubeUrl = 'https://www.youtube.com/watch?v=GsYPqOPpk1o'; // Replace with your YouTube video URL
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>Click here to Learn React </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <VideoPlayer url={youtubeUrl} />
-      </header>
+    <div className="container">
+      <div className="jumbotron mt-5">
+        <h1 className="display-4">Welcome to EduPlatform</h1>
+        <p className="lead">This is an innovative education platform designed to provide modern learning solutions.</p>
+        <hr className="my-4" />
+        <p>Click the button below to learn more:</p>
+        <a className="btn btn-primary btn-lg" href="https://your-education-platform.com" role="button">Learn more</a>
+      </div>
     </div>
   );
 }
 
 export default App;
+
