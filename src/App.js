@@ -18,13 +18,23 @@ function AboutPage() {
     </>
   );
 }
-
+const user = {
+  name: 'Hedy Lamarr',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
+};
 
 function App() {
   return (
     <div className="container">
       <div className="jumbotron mt-5">
         <h1 className="display-4">Welcome to EduPlatform</h1>
+        <h1>{user.name}</h1>
+        <img
+          className="avatar"
+          src={user.imageUrl}
+          alt={'Photo of ' + user.name}
+          ></img>
         <p className="lead">This is an innovative education platform designed to provide modern learning solutions.
           Click here to Sign Up </p>
         <hr className="my-4" />
@@ -35,7 +45,9 @@ function App() {
           <h1>Welcome to my app</h1>
           <MyButton />
           <AboutPage />
+          
         </div>
+        
       </div>
     </div>
 
