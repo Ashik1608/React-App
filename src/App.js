@@ -19,8 +19,8 @@ function AboutPage() {
   );
 }
 const user = {
-  name: 'Hedy Lamarr',
-  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  name: 'Ashik',
+  imageUrl: 'https://i.imhttps://media.licdn.com/dms/image/D5603AQEDVagrSj4ihg/profile-displayphoto-shrink_400_400/0/1679736197966?e=1729123200&v=beta&t=qegZ3-mcPArsI7AogMZiXrEtYsjdMt97Lf15HJeYVyggur.com/yXOvdOSs.jpg',
   imageSize: 90,
 };
 
@@ -34,7 +34,7 @@ function App() {
           className="avatar"
           src={user.imageUrl}
           alt={'Photo of ' + user.name}
-          ></img>
+        ></img>
         <p className="lead">This is an innovative education platform designed to provide modern learning solutions.
           Click here to Sign Up </p>
         <hr className="my-4" />
@@ -45,9 +45,9 @@ function App() {
           <h1>Welcome to my app</h1>
           <MyButton />
           <AboutPage />
-          
+
         </div>
-        
+
       </div>
     </div>
 
