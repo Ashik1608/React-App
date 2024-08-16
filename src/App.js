@@ -20,8 +20,7 @@ function AboutPage() {
 }
 const user = {
   name: 'Ashik',
-  imageUrl: 'https://i.imhttps://media.licdn.com/dms/image/D5603AQEDVagrSj4ihg/profile-displayphoto-shrink_400_400/0/1679736197966?e=1729123200&v=beta&t=qegZ3-mcPArsI7AogMZiXrEtYsjdMt97Lf15HJeYVyggur.com/yXOvdOSs.jpg',
-  imageSize: 90,
+  imageUrl: 'https://www.google.com/imgres?q=images&imgurl=https%3A%2F%2Fimages.ctfassets.net%2Fhrltx12pl8hq%2F28ECAQiPJZ78hxatLTa7Ts%2F2f695d869736ae3b0de3e56ceaca3958%2Ffree-nature-images.jpg%3Ffit%3Dfill%26w%3D1200%26h%3D630&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fdiscover%2Ffree-nature-images&docid=uEeA4F2Pf5UbvM&tbnid=0E5dDA82VanW3M&vet=12ahUKEwjHktSrkfqHAxUtSWwGHaWIEyYQM3oECHcQAA..i&w=1200&h=630&hcb=2&ved=2ahUKEwjHktSrkfqHAxUtSWwGHaWIEyYQM3oECHcQAA'
 };
 
 function App() {
